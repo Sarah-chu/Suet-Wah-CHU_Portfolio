@@ -1,21 +1,35 @@
-# Suet-Wah-CHU_Portfolio
+# Suet Wah CHU's Portfolio
 Welcome to my Github Portfolio! I am Suet Wah CHU (Sarah), a graduate student at Toulouse Business School, France, studying Artificial Intelligence and Business Analytics with some amazing and pratical projects. Any comments or guidance would be much appreciated!  
 
-## Classification
-### [Project 1 : NLP - Hate Speech Detection](https://github.com/Sarah-chu/AI-and-Big-Data-Project-Hate-Speech--1)
+## Natural Language Processing
+### [Project 1 : Social Media - Hate Speech Detection](https://github.com/Sarah-chu/AI-and-Big-Data-Project-Hate-Speech--1)
 - ~34k posts/tweets with 3 categories(hate speech, offensive language, neither) were classified
-- Achieved recall score of **92%** for hate speech and **89%** for offensive language using **SVM** with *Python*
+- Achieved recall score of **92%** for hate speech and **89%** for offensive language using **SVM** with ***Python***
 - **Unbalanced dataset** problem was handled by adding 2 extra datasets (more content and more topics of hate speech)
 - A [Web App](https://hate-speech-detection-tbs.herokuapp.com/) was built for users to test if they are posting hate speech or offensive language
 
-### [Project 2 : CNN & Image Recognition - Metallic Surface Anomaly Detection](https://github.com/Sarah-chu/CNN-Metallic-Surface-Anomaly-Detection)
+### [Project 2 : Social Media & PySpark - Donald Trump's Tweets from 2009 to 2020](https://github.com/Sarah-chu/NLP-PySpark-Donald-Trumps-Tweets)
+- Explored the **sentiment** of **58681 Donald Trump tweets** by looking at the occurrence of both positive and negative words using ***PySpark***
+- More **negative words** related to **impeachment** are used for retweets. About **positive words**, Donald Trump shows more frequent **appreciation** to other in retweets than in his original tweets.
+- The hot topics were broken down in 2 aspects: by original tweets and retweets, by years.
+- He had had more diversified topics, from personal life to politics, between 2012 and 2015 whereas he shifted his focus on political topics after 2015
+
+## Deep Learning
+### [Project 3 : CNN & Image Recognition - Metallic Surface Anomaly Detection](https://github.com/Sarah-chu/CNN-Metallic-Surface-Anomaly-Detection)
 - 1,800 grayscale images of **6 different types** of typical surface defects of the hot-rolled steel strip
-- Achived **95% accuracy** of detection by using a convolutional neural network with **PyTorch**
+- Achived **95% accuracy** of detection by using a convolutional neural network with ***PyTorch***
 - The convolutional neural network consists of 3 convolutional layers and 3 dense layers, and applies rectified linear on each convolutional layers with max pooling over 3x3 pixels
 - Can further develop into an application to detect defects on the surface of a metal part during the quality control process in the production lin
 
-### [Project 3 : Human Resources - IBM HR Analytics Employee Attrition Performance](https://github.com/Sarah-chu/Classification-IBM-HR-Analytics-Employee-Attrition-Performance-)
+## Classification
+### [Project 4 : Human Resources - IBM HR Analytics Employee Attrition Performance](https://github.com/Sarah-chu/Classification-IBM-HR-Analytics-Employee-Attrition-Performance-)
 - Predicted if an employee is likely to quit the company based on the dataset consisited of 1233 employees with 16.1% attrition rate 
-- Gaussian Naive Bayes was selected as the best model from Logistic Regression, KNN, Decision Tree and Random Forest, based on sensitivity(recall)
+- Gaussian Naive Bayes was selected as the best model from Logistic Regression, KNN, Decision Tree and Random Forest, based on sensitivity(recall) in ***R***
 - Achieved **68% recall** without any sampling method, will update the model using some sampling method in the future
 - **8 influential factors of attrition** were identified and **6 recommendations** were made based on the key findings and data analysis
+
+### [Project 5 : Finance/Banking - Default Payments of Credit Card Clients in Taiwan from 2005](https://github.com/Sarah-chu/Classification-Credit-Card-Default-Payment)
+- Predicted if a client is going to default next month by using 3000 records of credit card clients in Taiwan from April 2005 to September 2005 
+- Cleaned the data with the understanding of the dataset: the payment status were mislabled
+- Applied three sampling methods to encounter the unbalanced dataset (Random Oversampling, Random Undersampling, SMOTE) with ***Python***
+- **89% recall** score was achieved using Gaussian Naive Bayes model with SMOTE
