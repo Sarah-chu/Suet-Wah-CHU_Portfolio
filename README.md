@@ -7,6 +7,7 @@ Welcome to my Github Portfolio! I am Suet Wah CHU (Sarah), a graduate student at
 - Achieved recall score of **92%** for hate speech and **89%** for offensive language using **SVM** with ***Python***
 - **Unbalanced dataset** problem was handled by adding 2 extra datasets (more content and more topics of hate speech)
 - A [Web App](https://hate-speech-detection-tbs.herokuapp.com/) was built on ***Streamlit*** and ***Heroku*** for users to test if they are posting hate speech or offensive language
+![SVM confusion matrix](/images/svm_model.png)
 
 ### [Project 2 : Social Media & PySpark - Donald Trump's Tweets from 2009 to 2020](https://github.com/Sarah-chu/NLP-PySpark-Donald-Trumps-Tweets)
 - Explored the **sentiment** of **58681 Donald Trump tweets** by looking at the occurrence of both positive and negative words using ***PySpark***
@@ -39,3 +40,4 @@ Welcome to my Github Portfolio! I am Suet Wah CHU (Sarah), a graduate student at
 - Forecasted the next three years of traffic per month of Charles de Gaulle Airport(CDG) despite the effect of COVID-19 using Box-Jenkins methodology
 - Dummy variables were created to replace the largest outliers in the residual data to try to improve the model but the model was not improved
 - ARIMA (0,1,3)(0,1,1)[12] with no dummy variables was used with **88.24%** of points in the confidence bound(over 80% of the sample can be predicted within the confidence bound) for in-sample test
+![time series prediction](/images/insample_prediction.png)
