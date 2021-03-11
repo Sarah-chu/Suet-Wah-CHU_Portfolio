@@ -6,7 +6,7 @@ Welcome to my Github Portfolio! I am Suet Wah CHU (Sarah), a graduate student at
 - ~34k posts/tweets with 3 categories(hate speech, offensive language, neither) were classified
 - Achieved recall score of **92%** for hate speech and **89%** for offensive language using **SVM** with ***Python***
 - **Unbalanced dataset** problem was handled by adding 2 extra datasets (more content and more topics of hate speech)
-- A [Web App](https://hate-speech-detection-tbs.herokuapp.com/) was built for users to test if they are posting hate speech or offensive language
+- A [Web App](https://hate-speech-detection-tbs.herokuapp.com/) was built on ***Streamlit*** and ***Heroku*** for users to test if they are posting hate speech or offensive language
 
 ### [Project 2 : Social Media & PySpark - Donald Trump's Tweets from 2009 to 2020](https://github.com/Sarah-chu/NLP-PySpark-Donald-Trumps-Tweets)
 - Explored the **sentiment** of **58681 Donald Trump tweets** by looking at the occurrence of both positive and negative words using ***PySpark***
@@ -33,3 +33,9 @@ Welcome to my Github Portfolio! I am Suet Wah CHU (Sarah), a graduate student at
 - Cleaned the data with the understanding of the dataset: the payment status were mislabled
 - Applied three sampling methods to encounter the unbalanced dataset (Random Oversampling, Random Undersampling, SMOTE) with ***Python***
 - **89% recall** score was achieved using Gaussian Naive Bayes model with SMOTE
+
+## Time Series
+### [Project 6 : Hospitality & Tourism - CDG Airport Traffic Prediction](https://github.com/Sarah-chu/Time-Series-CDG-Airport-Traffic-Prediction)
+- Forecasted the next three years of traffic per month of Charles de Gaulle Airport(CDG) despite the effect of COVID-19 using Box-Jenkins methodology
+- Dummy variables were created to replace the largest outliers in the residual data to try to improve the model but the model was not improved
+- ARIMA (0,1,3)(0,1,1)[12] with no dummy variables was used with **88.24%** of points in the confidence bound(over 80% of the sample can be predicted within the confidence bound) for in-sample test
