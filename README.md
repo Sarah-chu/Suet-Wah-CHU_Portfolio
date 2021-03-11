@@ -6,7 +6,7 @@ Welcome to my Github Portfolio! I am Suet Wah CHU (Sarah), a graduate student at
 - ~34k posts/tweets with 3 categories(hate speech, offensive language, neither) were classified
 - Achieved recall score of **92%** for hate speech and **89%** for offensive language using **SVM** with ***Python***
 - **Unbalanced dataset** problem was handled by adding 2 extra datasets (more content and more topics of hate speech)
-- A [Web App](https://hate-speech-detection-tbs.herokuapp.com/) was built on ***Streamlit*** and ***Heroku*** for users to test if they are posting hate speech or offensive language
+- A [Web App](https://hate-speech-detection-tbs.herokuapp.com/) was built on ***Streamlit*** and ***Heroku*** for users to test if they are posting hate speech or offensive language  
 ![SVM confusion matrix](/images/svm_model.png)
 
 ### [Project 2 : Social Media & PySpark - Donald Trump's Tweets from 2009 to 2020](https://github.com/Sarah-chu/NLP-PySpark-Donald-Trumps-Tweets)
@@ -27,17 +27,19 @@ Welcome to my Github Portfolio! I am Suet Wah CHU (Sarah), a graduate student at
 - Predicted if an employee is likely to quit the company based on the dataset consisited of 1233 employees with 16.1% attrition rate 
 - Gaussian Naive Bayes was selected as the best model from Logistic Regression, KNN, Decision Tree and Random Forest, based on sensitivity(recall) in ***R***
 - Achieved **68% recall** without any sampling method, will update the model using some sampling method in the future
-- **8 influential factors of attrition** were identified and **6 recommendations** were made based on the key findings and data analysis
+- **8 influential factors of attrition** were identified and **6 recommendations** were made based on the key findings and data analysis  
+![HR_model_comparison](/images/HR_model_comparison.png)
 
 ### [Project 5 : Finance/Banking - Default Payments of Credit Card Clients in Taiwan from 2005](https://github.com/Sarah-chu/Classification-Credit-Card-Default-Payment)
 - Predicted if a client is going to default next month by using 3000 records of credit card clients in Taiwan from April 2005 to September 2005 
 - Cleaned the data with the understanding of the dataset: the payment status were mislabled
 - Applied three sampling methods to encounter the unbalanced dataset (Random Oversampling, Random Undersampling, SMOTE) with ***Python***
-- **89% recall** score was achieved using Gaussian Naive Bayes model with SMOTE
+- **89% recall** score was achieved using Gaussian Naive Bayes model with SMOTE  
+![credit_card_conf_matrix](/images/credit_card_conf_matrix.png)
 
 ## Time Series
 ### [Project 6 : Hospitality & Tourism - CDG Airport Traffic Prediction](https://github.com/Sarah-chu/Time-Series-CDG-Airport-Traffic-Prediction)
 - Forecasted the next three years of traffic per month of Charles de Gaulle Airport(CDG) despite the effect of COVID-19 using Box-Jenkins methodology
 - Dummy variables were created to replace the largest outliers in the residual data to try to improve the model but the model was not improved
-- ARIMA (0,1,3)(0,1,1)[12] with no dummy variables was used with **88.24%** of points in the confidence bound(over 80% of the sample can be predicted within the confidence bound) for in-sample test
+- ARIMA (0,1,3)(0,1,1)[12] with no dummy variables was used with **88.24%** of points in the confidence bound(over 80% of the sample can be predicted within the confidence bound) for in-sample test  
 ![time series prediction](/images/insample_prediction.png)
