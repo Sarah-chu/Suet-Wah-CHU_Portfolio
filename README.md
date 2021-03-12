@@ -16,7 +16,8 @@ Welcome to my Github Portfolio! I am Suet Wah CHU (Sarah), a graduate student at
 - He had had more diversified topics, from personal life to politics, between 2012 and 2015 whereas he shifted his focus on political topics after 2015  
 ![SVM confusion matrix](./images/DT_tweet_sentiment_word.png)
 
-### [Project 3 : Twitter API -  
+### [Project 3 : Twitter API - PS5 Tweets Analysis for the Period 15 Jan 2021 - 18 Jan 2021]()
+
 
 ## Deep Learning
 ### [Project 4 : CNN & Image Recognition - Metallic Surface Anomaly Detection](https://github.com/Sarah-chu/CNN-Metallic-Surface-Anomaly-Detection)
@@ -38,7 +39,7 @@ Welcome to my Github Portfolio! I am Suet Wah CHU (Sarah), a graduate student at
 - Cleaned the data with the understanding of the dataset: the payment status were mislabled
 - Applied three sampling methods to encounter the unbalanced dataset (Random Oversampling, Random Undersampling, SMOTE) with ***Python***
 - **89% recall** score was achieved using Gaussian Naive Bayes model with SMOTE  
-<img src="/images/credit_card_conf_matrix.png" width="700">
+![credit card](/images/credit_card_conf_matrix.png)
 
 ## Time Series
 ### [Project 7 : Hospitality & Tourism - CDG Airport Traffic Prediction](https://github.com/Sarah-chu/Time-Series-CDG-Airport-Traffic-Prediction)
@@ -50,6 +51,5 @@ Welcome to my Github Portfolio! I am Suet Wah CHU (Sarah), a graduate student at
 ## Data Visualization
 ### [Project 8 : R Shiny App - COVID-19-Death by Country](https://github.com/Sarah-chu/Shiny-App---COVID-19-Death)
 -  [Interactive website](https://suet-wah-chu.shinyapps.io/testui/?_ga=2.238267977.83272496.1606164025-724514677.1602514887) created with **Shiny App** in ***R*** showing the dealth rate and death rate per capita of each country from January 2020 to September 2020
--  2 types of data, 2 scales (linear and logarithmic) and multiple countries can be chosen and 2 Axes can be adjusted
-
-<img src="/images/Rshiny_web_interface.png" width="700">
+-  2 types of data, 2 scales (linear and logarithmic) and multiple countries can be chosen and 2 Axes can be adjusted  
+![shiny](/images/Rshiny_web_interface.png)
