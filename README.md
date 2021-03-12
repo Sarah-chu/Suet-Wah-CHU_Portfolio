@@ -14,8 +14,7 @@ Welcome to my Github Portfolio! I am Suet Wah CHU (Sarah), a graduate student at
 - More **negative words** related to **impeachment** are used for retweets. About **positive words**, Donald Trump shows more frequent **appreciation** to other in retweets than in his original tweets.
 - The hot topics were broken down in 2 aspects: by original tweets and retweets, by years.
 - He had had more diversified topics, from personal life to politics, between 2012 and 2015 whereas he shifted his focus on political topics after 2015  
-
-<img src="/images/DT_tweet_sentiment_word.png" width="700">
+![SVM confusion matrix](./images/DT_tweet_sentiment_word.png)
 
 ### [Project 3 : Twitter API -  
 
