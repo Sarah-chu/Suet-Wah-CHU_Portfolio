@@ -10,14 +10,14 @@ Welcome to my Github Portfolio! I am Suet Wah CHU (Sarah), a graduate student at
 ![SVM confusion matrix](/images/svm_model.png)
 
 ### [Project 2 : Social Media & PySpark - Donald Trump's Tweets from 2009 to 2020](https://github.com/Sarah-chu/NLP-PySpark-Donald-Trumps-Tweets)
-- Explored the **sentiment** of **58681 Donald Trump tweets** by looking at the occurrence of both positive and negative words using ***PySpark***
+- Peformed **text mining** including exploring the **sentiment** of **58681 Donald Trump tweets** by looking at the occurrence of both positive and negative words using ***PySpark***
 - More **negative words** related to **impeachment** are used for retweets. About **positive words**, Donald Trump shows more frequent **appreciation** to other in retweets than in his original tweets.
 - The hot topics were broken down in 2 aspects: by original tweets and retweets, by years.
 - He had had more diversified topics, from personal life to politics, between 2012 and 2015 whereas he shifted his focus on political topics after 2015  
 ![SVM confusion matrix](./images/DT_tweet_sentiment_word.png)
 
-### [Project 3 : Twitter API - PS5 Tweets Analysis for the Period 15 Jan 2021 - 18 Jan 2021]()
-
+### [Project 3 : Twitter API - PS5 Tweets Analysis for the Period 15 Jan 2021 - 18 Jan 2021](https://github.com/Sarah-chu/Twitter_API-PS5-Tweets-Analysis)
+- Used **Twitter API** to retreive the tweets of PlayStation5 for the period 15 Jan 2021 -18 Jan 2021
 
 ## Deep Learning
 ### [Project 4 : CNN & Image Recognition - Metallic Surface Anomaly Detection](https://github.com/Sarah-chu/CNN-Metallic-Surface-Anomaly-Detection)
