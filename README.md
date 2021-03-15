@@ -18,13 +18,17 @@ Welcome to my Github Portfolio! I am Suet Wah CHU (Sarah), a graduate student at
 
 ### [Project 3 : Twitter API - PS5 Tweets Analysis for the Period 15 Jan 2021 - 18 Jan 2021](https://github.com/Sarah-chu/Twitter_API-PS5-Tweets-Analysis)
 - Used **Twitter API** to retreive the tweets of PlayStation5 for the period 15 Jan 2021 -18 Jan 2021
+- Analyzed the location, source, tweet time, hashtags and sentiment of PS5 for that period in ***R***
+- 6 topics were concluded using Latent Dirichlet allocation **(LDA)**: game of PS5, stock of PS5, seeking for technical support  
+![PS5 topic](/images/topic_modeling.png)
 
 ## Deep Learning
 ### [Project 4 : CNN & Image Recognition - Metallic Surface Anomaly Detection](https://github.com/Sarah-chu/CNN-Metallic-Surface-Anomaly-Detection)
 - 1,800 grayscale images of **6 different types** of typical surface defects of the hot-rolled steel strip
 - Achived **95% accuracy** of detection by using a convolutional neural network with ***PyTorch***
 - The convolutional neural network consists of 3 convolutional layers and 3 dense layers, and applies rectified linear on each convolutional layers with max pooling over 3x3 pixels
-- Can further develop into an application to detect defects on the surface of a metal part during the quality control process in the production lin
+- Can further develop into an application to detect defects on the surface of a metal part during the quality control process in the production line   
+![defect type](/images/defect_type.png) ![accuracy](/images/accuracy.png)
 
 ## Classification
 ### [Project 5 : Human Resources - IBM HR Analytics Employee Attrition Performance](https://github.com/Sarah-chu/Classification-IBM-HR-Analytics-Employee-Attrition-Performance-)
@@ -46,7 +50,7 @@ Welcome to my Github Portfolio! I am Suet Wah CHU (Sarah), a graduate student at
 - Forecasted the next three years of traffic per month of Charles de Gaulle Airport(CDG) despite the effect of COVID-19 using Box-Jenkins methodology
 - Dummy variables were created to replace the largest outliers in the residual data to try to improve the model but the model was not improved
 - ARIMA (0,1,3)(0,1,1)[12] with no dummy variables was used with **88.24%** of points in the confidence bound(over 80% of the sample can be predicted within the confidence bound) for in-sample test  
-![time series prediction](/images/insample_prediction.png)
+![time series prediction](/images/insample_prediction.png)  
 
 ## Data Visualization
 ### [Project 8 : R Shiny App - COVID-19-Death by Country](https://github.com/Sarah-chu/Shiny-App---COVID-19-Death)
