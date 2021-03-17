@@ -1,5 +1,5 @@
 # Suet Wah CHU's Portfolio
-Welcome to my Github Portfolio! I am Suet Wah CHU (Sarah), a graduate student at Toulouse Business School, France, studying Artificial Intelligence and Business Analytics with some amazing and pratical projects. Any comments or guidance would be much appreciated!  
+Welcome to my Github Portfolio! I am Suet Wah CHU (Sarah), a graduate student at Toulouse Business School, France, studying Artificial Intelligence and Business Analytics with some amazing and practical projects. Any comments or guidance would be much appreciated!  
 
 ## Natural Language Processing
 ### [Project 1 : Social Media - Hate Speech Detection](https://github.com/Sarah-chu/AI-and-Big-Data-Project-Hate-Speech--1)
@@ -48,12 +48,18 @@ Welcome to my Github Portfolio! I am Suet Wah CHU (Sarah), a graduate student at
 ## Time Series
 ### [Project 7 : Hospitality & Tourism - CDG Airport Traffic Prediction](https://github.com/Sarah-chu/Time-Series-CDG-Airport-Traffic-Prediction)
 - Forecasted the next three years of traffic per month of Charles de Gaulle Airport(CDG) despite the effect of COVID-19 using Box-Jenkins methodology
-- Dummy variables were created to replace the largest outliers in the residual data to try to improve the model but the model was not improved
+- Created dummy variablesto replace the largest outliers in the residual data to try to improve the model but the model was not improved
 - ARIMA (0,1,3)(0,1,1)[12] with no dummy variables was used with **88.24%** of points in the confidence bound(over 80% of the sample can be predicted within the confidence bound) for in-sample test  
-![time series prediction](/images/insample_prediction.png)  
+![time series prediction](/images/insample_prediction.png) 
+
+## Regression 
+### [Project 8 : Medical Insurance Cost Prediction](https://github.com/Sarah-chu/Regression-medical_insurance_cost_prediction)
+- Estimated individual medical insurance premium based on age, gender, BMI, number of children, smoking habit and region in the US
+- Conducted serveral validation test to validate the model, e.g. Shapiro test, Variance Inflation Factor, Breush Pagan test, etc.
+- Used multiple linear regression with 5 regressors as the final model, further improvement of the model will be done in the future
 
 ## Data Visualization
-### [Project 8 : R Shiny App - COVID-19-Death by Country](https://github.com/Sarah-chu/Shiny-App---COVID-19-Death)
+### [Project 9 : R Shiny App - COVID-19-Death by Country](https://github.com/Sarah-chu/Shiny-App---COVID-19-Death)
 -  [Interactive website](https://suet-wah-chu.shinyapps.io/testui/?_ga=2.238267977.83272496.1606164025-724514677.1602514887) created with **Shiny App** in ***R*** showing the dealth rate and death rate per capita of each country from January 2020 to September 2020
 -  2 types of data, 2 scales (linear and logarithmic) and multiple countries can be chosen and 2 Axes can be adjusted  
 ![shiny](/images/Rshiny_web_interface.png)
