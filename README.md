@@ -57,6 +57,7 @@ Welcome to my Github Portfolio! I am Suet Wah CHU (Sarah), a graduate student at
 - Estimated individual medical insurance premium based on age, gender, BMI, number of children, smoking habit and region in the US
 - Conducted serveral validation test to validate the model, e.g. Shapiro test, Variance Inflation Factor, Breush Pagan test, etc.
 - Used multiple linear regression with 5 regressors as the final model, further improvement of the model will be done in the future
+![regression](/images/insample_prediction.png)  
 
 ## Data Visualization
 ### [Project 9 : R Shiny App - COVID-19-Death by Country](https://github.com/Sarah-chu/Shiny-App---COVID-19-Death)
